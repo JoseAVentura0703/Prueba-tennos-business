@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tareas</title>
+</head>
+<body>
+
+<div class="container" id="contenedor">
+    <div class="fecha">
+        <div id="fecha"></div>
+    </div>
+    
+    <h2>Agregar una nueva tarea</h2>
+
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="estudiar ingles, comprar la cena..." value="">
+        <i id="abrir-form" class="fas fa-plus-circle"></i>
+    </div>
+
+    <dialog id="modal">     
+        <form action="" method="dialog">
+            
+            <div class="titulo-div">
+                <input type="text" name="title" id="titulo" value="">
+            </div>
+
+            <div>
+                <textarea name="description" id="descripcion" placeholder="Descripcion..."></textarea>
+            </div>
+
+            <div class="grid">
+                <div class="grid-item-3">
+                    <label for="fecha-form">Fecha</label>
+                    <input type="date" name="date" id="fecha-form" value="">
+                </div>
+
+                <div class="grid-item-2">
+                    <label for="categoria">Categoria</label>
+                    <select name="category" id="categoria">
+                        <option value="1">Personal</option>
+                        <option value="2">Trabajo</option>
+                        <option value="3">Compras</option>
+                    </select>
+                </div>
+    
+                <div class="grid-item-1">
+                    <label for="hora">Hora de inicio</label>
+                    <input type="time" name="time" id="hora" value="">
+                </div>
+    
+            </div>
+
+            <div>
+                <label for="estado">En curso</label>
+                <input type="radio" name="state" value="1" checked>
+
+                <label for="estado">Completado</label>
+                <input type="radio" name=state value="2">
+            </div>
+            
+            
+            <button type="submit" class="btn-enviar" id="enviar-datos">Enviar</button>
+        </form>
+        <button type="submit" class="btn-cerrar" id="cerrar-modal">Cancelar</button>
+    </dialog>
+
+    <div class="contenedor-editar">
+        
+    </div>
+
+    <div class="lista-tareas">
+        <h3>Tareas Pendientes</h3>
+        <ul id="lista">
+            
+        </ul>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

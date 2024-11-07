@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fafafb;
+    --purple: #121212;
+    --lila: #bb86FC;
+    --second-lila: #714e9b;
+    --dark-lila: #3700b3;
+    --green: #03dac6;
+    --red: #cf6679;
+}
+
+body {
+    background: var(--purple);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container h2{
+    color: var(--white);
+}
+
+#fecha {
+    padding: 50px 0 5px 0;
+    color: var(--lila)
+}
+
+.agregar-tarea {
+    background-color: var(--white);
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    margin: 40px 0;
+}
+
+.agregar-tarea input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+}
+
+.agregar-tarea i {
+    font-size: 50px;
+    color: var(--green);
+}
+
+.agregar-tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar-tarea input:focus{
+    outline: none;
+}
+
+.agregar-tarea input::placeholder {
+    font-size: 1rem;
+}
+
+/*Lista de tareas*/
+
+.lista-tareas h3 {
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.lista-tareas li {
+    display: flex;
+    background: var(--dark-lila);
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: var(--white);
+}
+
+.lista-tareas li:hover {
+    cursor: pointer;
+}
+
+.lista-tareas i {
+    font-size: 25px;
+}
+
+.lista-tareas i:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+
+.lista-tareas > ul p {
+    font-size: 1.2rem;
+}
+
+.estado-hecho {
+    text-decoration: line-through;
+    color: var(--green);
+}
+
+
+
+/*Modal form*/
+
+#modal, #modalEdicion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: none;
+    padding: 30px 20px;
+}
+
+#modal label, #modalEdicion label {
+    color: var(--second-lila);
+    font-weight: 500;
+}
+
+
+#modal h2, #modalEdicion h2 {
+    color: black;
+}
+
+#modal::backdrop, #modalEdicion::backdrop {
+    background-color: rgba(0,0,0,.55);
+}
+
+#modal input:focus, #modalEdicion input:focus{
+    outline: none;
+}
+
+#modal div, #modalEdicion div {
+    padding-bottom: 1.2rem;
+}
+
+#titulo {
+    border: none;
+    color: var(--second-lila);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#modal textarea, #modalEdicion textarea{
+    resize: none;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 110px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#modal .grid, #modalEdicion .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+#modal .grid-item-1, #modalEdicion .grid-item-1{
+    grid-area: 1/ 1 / 2 / 2;
+}
+#modal .grid-item-2, #modalEdicion .grid-item-2{
+    grid-area: 2/ 1 / 3 / 2;
+}
+#modal .grid-item-1, #modalEdicion .grid-item-1{
+    grid-area: 1/ 2 / 3 / 3;
+}
+
+#modal .grid label, #modalEdicion .grid label{
+    display: block;
+}
+
+#modal input[type="date"], #modalEdicion input[type="date"]{
+    background-color: var(--dark-lila);
+    padding: 15px;
+    color: var(--white);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#modal input[type="time"], #modalEdicion input[type="time"]{
+    background-color: var(--dark-lila);
+    padding: 70px 20px;
+    color: var(--white);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#modal select, #modalEdicion select{
+    background-color: var(--dark-lila);
+    padding: 15px 36px;
+    color: var(--white);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#modal button, #modalEdicion button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+#modal button:hover, #modalEdicion button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-enviar {
+    margin-left: 0.5rem;
+    background-color: var(--green);
+    float: right;
+}
+
+.btn-cerrar {
+    background-color: var(--red);
+    float: right;
+}
+
+
+
+
+
