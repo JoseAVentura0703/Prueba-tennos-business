@@ -1,0 +1,24 @@
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.deps.json
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.dll
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.pdb
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.csproj.AssemblyReference.cache
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.AssemblyInfoInputs.cache
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.AssemblyInfo.cs
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.csproj.CoreCompileInputs.cache
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.dll
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\refint\ListaDeTareas.Model.dll
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.pdb
+D:\Net con leonardo\ListaDeTareas\ListaDeTareas.Model\obj\Debug\net6.0\ref\ListaDeTareas.Model.dll
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.deps.json
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.dll
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\bin\Debug\net6.0\ListaDeTareas.Model.pdb
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.csproj.AssemblyReference.cache
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.AssemblyInfoInputs.cache
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.AssemblyInfo.cs
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.csproj.CoreCompileInputs.cache
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.dll
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\refint\ListaDeTareas.Model.dll
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ListaDeTareas.Model.pdb
+D:\albie\Escritorio\Prueba Tecnica\Server\ListaDeTareas.Model\obj\Debug\net6.0\ref\ListaDeTareas.Model.dll
